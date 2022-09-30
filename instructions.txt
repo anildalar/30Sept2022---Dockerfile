@@ -1,0 +1,61 @@
+Docker Hub  vs Git Hub
+
+
+GitHub
+Store the source Code
+
+Docker Hub
+Sore the sourceCode with Complete OS
+
+.
+Image ------------------------> OS
+
+Win11--> IMage ---> Pendrive---> Install
+
+
+Linux OS 
+
+
+
+Lets build our own docker image
+
+
+Requirement
+1. Node:14.
+
+express
+dotenv
+
+# COMMAND arguments
+
+
+1. Ubuntu
+2. Centos
+3. RedHat
+4. Fedora
+
+
+WSL 2  install
+
+Windows SubSystem Linux
+
+https://learn.microsoft.com/en-us/windows/wsl/install
+
+window + x
+
+
+wsl install
+wsl --install
+
+ubuntu 20.04
+
+
+
+ps = process status
+ls = list
+
+bash = bourn again shell
+
+docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -p 3306:3306 -d mysql:tag
+
+docker run --name postgres-db -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
